@@ -47,7 +47,7 @@ console.log(guessNumbers);
 let countDownTime = 11;
 let timerId = setInterval(countDown, 1000);
 
-countDownEl.innerHTML = `${countDown()}`;
+// countDownEl.innerHTML = `${countDown()}`;
 setTimeout(() => {
   numbersListEl.classList.add("d-none");
   numbersListEl.classList.remove("d-flex");
